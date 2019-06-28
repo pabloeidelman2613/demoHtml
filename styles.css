@@ -1,0 +1,29 @@
+.border-tomato {
+    border: 1px solid tomato;
+}
+.border-black{
+    border: 1px solid black;
+}
+.nota{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.nota_titulo{
+    font-size: 40px;
+    color: red;
+}
+.nota_parrafo{
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
+.nota_boton{
+    border: 1px solid gray;
+}
+.nota_boton--disabled{
+    display:none;
+}

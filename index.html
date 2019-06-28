@@ -5,11 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi titulo</title>
-    <style>
-        .border {
-            border: 1px solid tomato;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -20,13 +16,21 @@
     </nav>
 
     <main>
-        <section>
-                <h1 class="border">Mi titulo principal</h1>
-                <p>
+        <section class="nota">
+                <h1 class="nota_titulo">Mi titulo principal</h1>
+                <p class="nota_parrafo">
                     Las terminales le pedirán al Gobierno una prórroga en el plan de 
                     descuentos para la venta de autos 0km
                 </p>
+                <button class="nota_boton nota_boton--disabled">Confirmar</button>
                 <h2>Mi titulo secundario</h2>
+                <p class="border-tomato">
+                    El programa oficial vence a fin de esta semana y analizan extenderlo 
+                    un mes más. Las terminales tendrán un encuentro con funcionarios de Producción 
+                    entre jueves y viernes y les mostrarán, con datos, el éxito del plan. 
+                    Creció casi 13% el promedio diario de patentamientos, pero el mayor impacto 
+                    se verá en julio
+                </p>
                 <img src="./concesionaria-2.webp" alt="Concesionaria"/>
         </section>
 
