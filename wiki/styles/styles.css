@@ -1,0 +1,61 @@
+.wiki-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.wiki-note {}
+
+.article-container {
+    display: flex;
+}
+
+.article-header {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.wiki-title {
+    font-size: 40px;
+    border-bottom: 1px solid #a2a9b1;
+}
+
+.wiki-text-container {
+    padding: 3px 20px;
+}
+
+.wiki-text {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 0.875em;
+    line-height: 1.6;
+}
+
+.wiki-aside {}
+
+.img-html {
+    width: 230px;
+}
+
+.table {
+    border: 1px solid #B4BBC8;
+    background-color: #f9f9f9;
+}
+
+.thead {
+    text-align: center;
+    background-color: #DCEAEC;
+    color: black;
+    font-family: sans-serif;
+    vertical-align: middle;
+    height: 45px;
+    font-weight: bold;
+}
+
+.th {
+    text-align: center;
+    background-color: #DCEAEC;
+    color: black;
+    font-family: sans-serif;
+    vertical-align: middle;
+    font-weight: bold;
+}

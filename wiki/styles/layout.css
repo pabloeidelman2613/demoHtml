@@ -1,0 +1,49 @@
+.nav-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-list {
+    list-style-type: none;
+}
+
+.li-list {
+    display: inline;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    margin-left: 0.75em;
+}
+
+.li-list a:link {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.li-list a:hover {
+    text-decoration: underline;
+}
+
+.wiki-menu {
+    align-items: center;
+    background-color: #f6f6f6;
+}
+
+.list-nav {
+    list-style-type: none;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    padding: 10px;
+}
+
+.li {
+    padding: 3px;
+}
+
+.li a:link {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+.li a:hover {
+    text-decoration: underline;
+}
